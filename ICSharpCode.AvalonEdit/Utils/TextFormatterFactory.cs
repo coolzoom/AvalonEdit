@@ -78,8 +78,8 @@ namespace ICSharpCode.AvalonEdit.Utils
 				emSize.Value,
 				foreground,
 				null,
-				TextOptions.GetTextFormattingMode(element),
-				VisualTreeHelper.GetDpi(element).PixelsPerDip
+				TextOptions.GetTextFormattingMode(element)
+				//96 //VisualTreeHelper.GetDpi(element).PixelsPerDip
 			);
 		}
 	}

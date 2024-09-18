@@ -58,6 +58,7 @@ namespace ICSharpCode.AvalonEdit.Utils
 		/// <param name="emSize">The font size. If this parameter is null, the font size of the <paramref name="element"/> will be used.</param>
 		/// <param name="foreground">The foreground color. If this parameter is null, the foreground of the <paramref name="element"/> will be used.</param>
 		/// <returns>A FormattedText object using the specified settings.</returns>
+		[Obsolete]
 		public static FormattedText CreateFormattedText(FrameworkElement element, string text, Typeface typeface, double? emSize, Brush foreground)
 		{
 			if (element == null)
